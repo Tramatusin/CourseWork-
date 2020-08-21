@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MoscowRest.Pages.PlacesPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="AntiqueWhite">
+            <CollectionView x:Name="AllPlacesCol"
+                            HorizontalScrollBarVisibility="Never"
+                            VerticalScrollBarVisibility="Never"
+                            SelectionMode="Single"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                            SelectionChanged="AllPlacesCol_SelectionChanged"
+                            >
+                <CollectionView.Header>
+                    <StackLayout>
+                        <StackLayout  Margin="{OnPlatform Android='0,10,0,0', iOS='0,60,0,0'}" Padding="10" Orientation="Horizontal">
+                            <Label  VerticalTextAlignment="Center" FontSize="Title" FontAttributes="Bold"/>
+                        </StackLayout>
+                    </StackLayout>
+                </CollectionView.Header>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout >
+                            <yummy:PancakeView Margin="10" CornerRadius="10" BackgroundColor="White">
+                                <StackLayout Margin="10" >
+                                    <Label  FontSize="Subtitle" Text="{Binding Name}" />
+                                    <Label  Text="{Binding Address}"/>
+                                    <StackLayout >
+                                        <CollectionView HeightRequest="50" ItemsSource="{Binding Categories}" SelectionMode="None"
+                                    ItemsLayout="HorizontalList" >
+                                            <CollectionView.ItemTemplate>
+                                                <DataTemplate>
+                                                    <StackLayout >
+                                                        <yummy:PancakeView VerticalOptions="CenterAndExpand" Margin="10,5,10,5" CornerRadius="10" BackgroundColor="LightPink">
+                                                            <StackLayout Margin="10,5,10,5">
+                                                                <Label  FontSize="Small" FontAttributes="Bold" Text="{Binding name}"/>
+                                                            </StackLayout>
+                                                        </yummy:PancakeView>
+                                                    </StackLayout>
+                                                </DataTemplate>
+                                            </CollectionView.ItemTemplate>
+                                        </CollectionView>
+                                    </StackLayout>
+                                </StackLayout>
+                            </yummy:PancakeView>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

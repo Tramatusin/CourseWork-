@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+
+             x:Class="MoscowRest.Pages.PlaceInfoPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Закрыть" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="info">
+                <StackLayout HeightRequest="200" HorizontalOptions="Fill">
+                    <maps:Map x:Name="placeMap">
+                        <maps:Map.Pins>
+                            <maps:Pin x:Name="placePin"
+                                      Label="Default"
+                                      Type="Place">
+
+                            </maps:Pin>
+                        </maps:Map.Pins>
+                    </maps:Map>
+                </StackLayout>
+                <Label Text="{Binding Name}" FontSize="Title" Margin="10,20,10,20"/>
+                <Grid Margin="10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition BindingContext="{x:Reference Name=addres}" Width="Auto" />
+                        <ColumnDefinition  Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" FontSize="Subtitle"  x:Name="addres" Text="Адрес:"/>
+                    <Label Grid.Column="1" FontSize="Subtitle" Text="{Binding Address}"/>
+                </Grid>
+                <Button x:Name="saveButton"
+                    HorizontalOptions="FillAndExpand" HeightRequest="60"
+                        Text="Добавить в избранное" BackgroundColor="LightSkyBlue"
+                        FontSize="Subtitle" Margin="20,10,20,30" CornerRadius="10"
+                        TextColor="White"
+                        Clicked="Button_Clicked"
+                        />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

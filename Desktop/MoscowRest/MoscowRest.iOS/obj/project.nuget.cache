@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "H8TO54trk8hgzupAVjeqeymHleDcHOJPxr6+ZO5vRwTIaPZa3LBmYVhTThban4t3eTNSJImKa5Gc6OwOrlwrEg==",
+  "success": true,
+  "projectFilePath": "/Users/tramsyup/Desktop/MoscowRest/MoscowRest.iOS/MoscowRest.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/tramsyup/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/xamarin.forms/4.7.0.1239/xamarin.forms.4.7.0.1239.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/xamarin.forms.maps/4.7.0.1239/xamarin.forms.maps.4.7.0.1239.nupkg.sha512",
+    "/Users/tramsyup/.nuget/packages/xamarin.forms.pancakeview/2.0.1.698/xamarin.forms.pancakeview.2.0.1.698.nupkg.sha512"
+  ],
+  "logs": []
+}

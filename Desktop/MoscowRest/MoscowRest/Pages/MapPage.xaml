@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoscowRest.Pages.MapPage">
+    <ContentPage.Content>
+        <maps:Map x:Name="map">
+            <maps:Map.ItemTemplate >
+                <DataTemplate>
+                    <maps:Pin Position="{Binding Position}"
+                              Address="{Binding Address}"
+                              Label="{Binding Description}"
+                              
+                              
+                              />
+
+                </DataTemplate>
+            </maps:Map.ItemTemplate>
+        </maps:Map>
+    </ContentPage.Content>
+
+
+</ContentPage>

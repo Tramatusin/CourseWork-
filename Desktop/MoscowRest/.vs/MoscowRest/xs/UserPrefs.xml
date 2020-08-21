@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{905C2E35-FA96-4CB6-B5A8-B498212B0FC5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoscowRest/Pages/RecomendationPage.xaml">
+    <Files>
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/iOS/Xamarin.iOS.Common.targets" Line="10" Column="71" IsPinned="True" />
+      <File FileName="MoscowRest/Pages/SavedPlacesPage.xaml" Line="1" Column="1" IsPinned="True" />
+      <File FileName="MoscowRest/MainPage.xaml.cs" Line="48" Column="37" />
+      <File FileName="MoscowRest/MainPage.xaml" Line="6" Column="12" />
+      <File FileName="MoscowRest/Pages/RecomendationPage.xaml" Line="14" Column="35" />
+      <File FileName="MoscowRest/Pages/SavedPlacesPage.xaml.cs" Line="7" Column="1" />
+      <File FileName="MoscowRest/Pages/RecomendationPage.xaml.cs" Line="36" Column="1" />
+      <File FileName="MoscowRest/Managers/PlacesManager.cs" Line="37" Column="49" />
+      <File FileName="MoscowRest/Managers/SQLManager.cs" Line="1" Column="1" />
+      <File FileName="MoscowRest/Pages/PlacesPage.xaml.cs" />
+      <File FileName="MoscowRest/Models/PlacesEventArgs.cs" />
+      <File FileName="MoscowRest/Managers/RecomendedPlacesManager.cs" Line="7" Column="11" />
+      <File FileName="MoscowRest/Managers/FileAccessManager.cs" />
+      <File FileName="MoscowRest/Managers/AllPlacesManager.cs" />
+      <File FileName="MoscowRest/Pages/MapPage.xaml.cs" />
+      <File FileName="MoscowRest/Models/Place.cs" Line="1" Column="1" />
+      <File FileName="MoscowRest/Pages/PlacesPage.xaml" />
+      <File FileName="MoscowRest.iOS/Main.cs" />
+      <File FileName="MoscowRest/App.xaml" />
+      <File FileName="MoscowRest/Models/Venue.cs" />
+      <File FileName="MoscowRest/Models/RecomendedPlaces.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MoscowRest" expanded="True">
+            <Node name="MoscowRest" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="RecomendationPage.xaml" selected="True" />
+                <Node name="SavedPlacesPage.xaml" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="MoscowRest.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MoscowRest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.88A3C08A-DA7D-4A78-9427-D22CC27C9C68" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MoscowRest.Android PreferredExecutionTarget="Android.pixel_3_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

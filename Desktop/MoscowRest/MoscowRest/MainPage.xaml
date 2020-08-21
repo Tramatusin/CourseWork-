@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core" 
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            xmlns:pages="clr-namespace:MoscowRest.Pages"
+            mc:Ignorable="d" x:Class="MoscowRest.MainPage">
+    <TabbedPage.Children>
+        <NavigationPage Title="Все места"
+                        IconImageSource="allPlaces"
+                        >
+            <x:Arguments>
+                <pages:PlacesPage x:Name="placesPage"/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Карта"
+                        IconImageSource="map"
+                        >
+            <x:Arguments>
+                <pages:MapPage x:Name="mapPage"/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Рекомендации"
+                        IconImageSource="recom"
+                        >
+            <x:Arguments>
+                <pages:RecomendationPage x:Name="recomendationPage"/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Избранное"
+                        IconImageSource="star"
+                        >
+            <x:Arguments>
+                <pages:SavedPlacesPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
